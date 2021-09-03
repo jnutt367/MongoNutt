@@ -1,2 +1,2 @@
 # MongoNutt
-This is going to documaent the journey throughout my MongoDB University studies.
+This is going to document the journey throughout my MongoDB University studies.
