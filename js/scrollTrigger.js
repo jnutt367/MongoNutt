@@ -11,6 +11,7 @@ let tl = gsap.timeline({
             toggleActions: "restart none none restart"
         }
     })
+    .fromTo("#author", { opacity: 0 }, { opacity: 1, scale: 1.4, color: "green", textShadow: "5px 5px black" })
     .to("#local", { scale: 3, fill: "green", ease: "elastic", padding: "0.1rem", margin: "0.5rem", duration: 3 }, 4)
     .to("#atlas", { scale: 3, fill: "black", ease: "elastic", duration: 3 }, 4)
     .to("#compass", { scale: 3, fill: "green", ease: "elastic", duration: 3, rotate: 45 }, 4)
@@ -18,3 +19,4 @@ let tl = gsap.timeline({
     .fromTo("#man", { opacity: 0 }, { y: -20, duration: 7, ease: "elastic", opacity: 1 }, 2)
     .fromTo("#go", { x: -300, opacity: 0 }, { x: 0, y: -20, duration: 3, ease: "elastic", opacity: 1 }, 2)
     .fromTo("#gone", { opacity: 0, y: 100 }, { y: -20, duration: 2, ease: "elastic", opacity: 1 })
+    .to("#charts", { scale: 2, margin: "1rem", marginBottom: "2rem", ease: "bounce", duration: 2 }, 2)
