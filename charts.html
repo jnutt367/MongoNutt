@@ -16,7 +16,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">MONGONUTT</a>
+            <a href="#" class="navbar-brand">CHARTSNUTT</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
@@ -44,9 +44,9 @@
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
-                    <h1>From React to<span class="text-white"> MERN Developer </span></h1>
+                    <h1>My Charts<span class="text-white"> MongoDB M131 Intro to Charts</span></h1>
                     <p class="lead my-4">
-                        I focus on my journey through MongoDB university, getting to know the MongoDB Community and trying, failing and then succeeding in building out things I once could only imagine.
+                        I focus on my journey through MongoDB charts, getting to know the MongoDB aggregation pipeline in order to optimize my queries for each use case, once again, building things out things I once could only imagine.
                     </p>
                     <a href="https://university.mongodb.com/"><button class="btn btn-secondary btn-lg" data-bs-toggle="modal" data-bs-target="https://university.mongodb.com/"> Enroll Now
                     </button></a>
@@ -134,17 +134,20 @@
 
     <!-- Boxes -->
     <section class="p-5">
+
         <div class="container">
             <div class="row text-center g-4">
+                <h3 style="text-shadow:2px 2px green; color:#444" class="card-title mb-3">My M131 Charts</h3>
                 <div class="col-md">
+
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
-                            <svg id="local" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
-                                <path d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
-                              </svg>
-                            <h3 class="card-title mb-3">MongoDB Self hosted</h3>
-                            <p class="card-text">Allows us to host our own MongoDB server on our own hardware! Requires that you manage your own server...updates and any other maintainence
+
+                            <iframe style="background: grey; color:white; border: 1px solid silver; border-radius: 15px;box-shadow: 0 10px 10px 0 rgba(100, 206, 205, .7);" width="100%" height="480" src="https://charts.mongodb.com/charts-m001-hisht/embed/charts?id=21080c9d-d432-42e8-a9e7-bb459ab88366&theme=light"></iframe>
+                            <h3 style="margin-top: 15px" class="card-title mb-3">The first is a geospatial chart:</h3>
+                            <p class="card-text">It shows all of the Airbnbs in Brazil and compares them by price: It also displays the latitude and longitude of the location and it's property type.
                             </p>
+                            <p>Let me know how you want to see the results sorted. By most ammeneties, best location, by the coast...whatever you can think of,I'll make it into a comprehensive data visualization, pretty cool! </p>
                             <a href="https://university.mongodb.com/" class="btn btn-light">Read More</a>
                         </div>
                     </div>
@@ -153,37 +156,19 @@
                     <div class="card bg-secondary text-light">
                         <div class="card-body text-center">
                             <div class="h1 mb-3">
-                                <svg id="atlas" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-steps" viewBox="0 0 16 16">
-                                    <path d="M.5 0a.5.5 0 0 1 .5.5v15a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 .5 0zM2 1.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1-.5-.5v-1zm2 4a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-1z"/>
-                                  </svg>
+                                <iframe style="background: #21313C;border: none;border-radius: 15px;box-shadow: 0 10px 10px 0 rgba(100, 206, 205, .7);" width="100%" height="480" src="https://charts.mongodb.com/charts-m001-hisht/embed/charts?id=d9b58a13-f7c2-4ec5-8073-9efd4730fe21&autoRefresh=10&theme=dark"></iframe>
                             </div>
-                            <h3 class="card-title mb-3">MongoDB Atlas</h3>
+                            <h3 class="card-title mb-3">This one is a geospatial chart as well:</h3>
                             <p class="card-text">
-                                Utilizes SaaS approach and is a global cloud datbase as a service for modern applications.</p>
+                            </p>
                             <p>It is a super easy process to get started using an Atlas cluster and for most of us beginner's it is free until you actually have used some storage.</p>
+
+                            <p class="card-text">These types of geospacial Charts are referred to as heat maps. It shows all of the shipwrecks in the sample data and displays them by location. It also displays the visibility of the wreckage!
+                            </p>
                             <a href="https://university.mongodb.com/" class="btn btn-dark">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-
-                                <svg id="compass" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill" viewBox="0 0 16 16">
-                                    <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24zm-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
-                                  </svg>
-                            </div>
-                            <h3 class="card-title mb-3">MongoDB Compass</h3>
-                            <p class="card-text">
-                                This is the GUI for MongoDB! Allows us to visually explore our data. Interact with your data with FULL CRUD functionality and optimize your query performance.
-                            </p>
-                            <a href="https://university.mongodb.com/" class="btn btn-secondary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
     <!-- Adding my personal course work journey, starting with MongoDB Charts  -->
 
@@ -196,16 +181,15 @@
                             <svg id="charts" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="green" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
                                 <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
                               </svg>
-                            <h3 class="card-title mb-3">M131 MongoDB Charts: </h3>
-                            <p class="card-text">Allows us to make visually stunning charts for our data. I am building the Charts following MongoDB University Charts M131 with Xijing Zhang, a senior Curriculum engineer at MongoDB! </p>
-                            <a href="charts.html" class="btn btn-light">See my Charts</a>
+                            <iframe style="background: #21313C;border: none;border-radius: 15px;box-shadow: 0 10px 10px 0 rgba(100, 206, 205, .7);" width="100%" height="480" src="https://charts.mongodb.com/charts-m001-hisht/embed/charts?id=800839ca-b504-4948-9c07-2566e5f4ef67&theme=dark"></iframe>
+                            <h3 class="card-title mb-3">Next a Bar chart: </h3>
+                            <p class="card-text">It shows all of the TOP 20 New York Neighborhoods. Rated by the highest to lowest potential for earnings </p>
+                            <p class="card-text">This is an awesome thing. I can now take any of the charts I make and use them in whatever application I build for the frontend! SPECTACULAR!!!</p>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wind" viewBox="0 0 16 16">
                                 <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"/>
                               </svg>
-                            <a href="https://university.mongodb.com/mercury/A131/2021_August_10/chapter/Chapter_1_Introduction_to_MongoDB_Charts/lesson/607756cc2115403c729527a5/lecture" class="btn btn-light">Checkout this course</a>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wind" viewBox="0 0 16 16">
-                                <path d="M12.5 2A2.5 2.5 0 0 0 10 4.5a.5.5 0 0 1-1 0A3.5 3.5 0 1 1 12.5 8H.5a.5.5 0 0 1 0-1h12a2.5 2.5 0 0 0 0-5zm-7 1a1 1 0 0 0-1 1 .5.5 0 0 1-1 0 2 2 0 1 1 2 2h-5a.5.5 0 0 1 0-1h5a1 1 0 0 0 0-2zM0 9.5A.5.5 0 0 1 .5 9h10.042a3 3 0 1 1-3 3 .5.5 0 0 1 1 0 2 2 0 1 0 2-2H.5a.5.5 0 0 1-.5-.5z"/>
-                              </svg>
+
+
                         </div>
                     </div>
                 </div>
@@ -216,33 +200,17 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="132" height="32" stroke="black" fill="green" class="bi bi-archive-fill" viewBox="0 0 16 16">
                                     <path d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15h9.286zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zM.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8H.8z"/>
                                   </svg>
+                                <iframe style="background:rgb(209, 182, 182);background-size:cover;border: none;border-radius: 2px;box-shadow: 0 12px 20px 0 rgba(70, 76, 79, .2); " width="100%" height="500px " src="https://charts.mongodb.com/charts-m001-hisht/embed/charts?id=41a5f1c3-b7a9-4a70-b777-0fe68aa11cde&theme=light "></iframe>
                             </div>
-                            <h3 class="card-title mb-3">MongoDB Community Journey </h3>
+                            <h3 class="card-title mb-3">The GOAT</h3>
                             <p class="card-text">
-                                Here I am just going to be raving about how awesomly amazing and helpful I have found the MongoDB Community!</p>
-                            <p>Of course it'll have ya an invite and a link to see all my cool community badges thay have!</p>
-                            <a href="" class="btn btn-dark">Community!</a>
+                                Finally, I put it all together and made something I have long, since the beginning of this journey, had an inclination to make. </p>
+                            <p>A comparison of the all time greatest basketball players and their statistics. I am loving what I can potentially make with MongoDB Charts.</p>
+                            <a href="" class="btn btn-dark">Come talk about it!</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body text-center">
-                            <div class="h1 mb-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="green" class="bi bi-building" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/>
-                                    <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/>
-                                  </svg>
 
-                            </div>
-                            <h3 class="card-title mb-3">MongoDB University Journey</h3>
-                            <p class="card-text">
-                                Starting with post M001 MongoDB Basics</p>
-                            <p>This will be a progressively growing area that documents my journey starting right after I had finished with the Basics and started on to Charts and Compass</p>
-                            <a href="https://university.mongodb.com/" class="btn btn-secondary">Enroll in MongoDB University</a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -373,174 +341,71 @@
         </div>
     </section>
 
-    <!-- Question Accordion -->
-    <section id="questions " class="p-5 ">
+
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative ">
+        <p id="up">The what you will learn link is currently under construction due to learning what it is that you will learn, by learning it currently...is that redundancy at it's finest ot what?</p>
         <div class="container ">
-            <h2 class="text-center mb-4 ">Frequently Asked Questions</h2>
-            <div class="accordion accordion-flush " id="questions ">
-                <!-- Item 1 -->
+            <p class="lead ">Copyright &copy; 2021 JNutt's Mongo Experience</p>
 
+            <a href="# " class="position-absolute bottom-0 end-0 p-5 ">
+                <i id="up " class="bi bi-arrow-up-circle h1 "></i>
+            </a>
+        </div>
+    </footer>
 
-
-                <section id="Other_Things " class="p-5 bg-dark ">
-                    <div class="container ">
-                        <h2 class="text-center text-white ">Other things:</h2>
-                        <p class="lead text-center text-white mb-5 ">
-                            A web developer in the industry needs to know more than just how to code in a certain language.
-                        </p>
-                        <div class="row g-4 ">
-                            <div class="col-md-6 col-lg-3 ">
-                                <div style="border: 1px dotted green" class="card bg-dark">
-                                    <div class="card-body text-center ">
-                                        <img src="img/undraw_server_cluster.svg " style="width: 155px; " class="mb-3 " alt=" " />
-                                        <h3 style="color:white" class="card-title mb-3 ">Learn the Landscape</h3>
-                                        <p style="color:white" class="card-text ">
-                                            Learn the Bird's eye view or the basic overall landscape of the web and how the technology you are currently learning fits in by diving into it's community
-                                            <a href=""></a>
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-lg-3 bg-dark ">
-                                <div class="card bg-secondary ">
-                                    <div class="card-body text-center ">
-                                        <img src="img/undraw_Updated_resume.svg " style="width: 155px; " class="mb-3 " alt=" " />
-                                        <h3 class="card-title mb-3 ">Portfolio is Important</h3>
-                                        <p style="color:white" class="card-text ">
-                                            ...But it isn't EVERYTHING!<br> Dive deeper, learn things that you didn't know you needed. Push your mind... Oh, and take breaks. ...our minds need refreshing too!
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style="border-radius: 10px; border: 1px dotted green;color: white; " class="col-md-6 col-lg-3 bg-med ">
-                                <div class="card bg-dark">
-                                    <div class="card-body text-center ">
-                                        <img src="img/undraw_Surveillance.svg " style="width: 155px; " class="mb-3 " alt=" " />
-                                        <h3 class="card-title mb-3 ">Forward Thinking/ Wireframing</h3>
-                                        <p class="card-text ">
-                                            Everyone thinks they can just sit down and start coding something and it will turn out nicely... I guarantee you it needs more planning. Get familiar with a project management tool to help map out your ideas. I prefer
-                                            <a href="https://trello.com/jasonnuttsstuff"> Trello</a> Check out my humble attempts at self PMing here.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style="border-radius: 10px; color: white; " class="col-md-6 col-lg-3 bg-dark ">
-                                <div class="card bg-secondary ">
-                                    <div class="card-body text-center ">
-                                        <img src="img/undraw_Faq.svg " style="width: 155px; " class="mb-3 " alt=" " />
-                                        <h3 style="color: black" class="card-title mb-3 ">FAQ</h3>
-                                        <p class="card-text ">
-                                            Frequently asked questions when trying to implement <a href="https://university.mongodb.com/ ">MongoDB</a> and <a href="https://nextjs.org/docs/faq ">Next.js or React.js</a>
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-
-
-                <!-- Footer -->
-                <footer class="p-5 bg-dark text-white text-center position-relative ">
-                    <p id="up">The what you will learn link is currently under construction due to learning what it is that you will learn, by learning it currently...is that redundancy at it's finest ot what?</p>
-                    <div class="container ">
-                        <p class="lead ">Copyright &copy; 2021 JNutt's Mongo Experience</p>
-
-                        <a href="# " class="position-absolute bottom-0 end-0 p-5 ">
-                            <i id="up " class="bi bi-arrow-up-circle h1 "></i>
-                        </a>
-                    </div>
-                </footer>
-
-                <!-- Modal -->
-                <div class="modal fade " id="enroll " tabindex="-1 " aria-labelledby="enrollLabel " aria-hidden="true ">
-                    <div class="modal-dialog ">
-                        <div class="modal-content ">
-                            <div class="modal-header ">
-                                <h5 class="modal-title " id="enrollLabel ">Enrollment</h5>
-                                <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
-                            </div>
-                            <div class="modal-body ">
-                                <p class="lead ">Fill out this form to schedule a one on one consultation with me!</p>
-                                <form>
-                                    <div class="mb-3 ">
-                                        <label for="first-name " class="col-form-label ">
+    <!-- Modal -->
+    <div class="modal fade " id="enroll " tabindex="-1 " aria-labelledby="enrollLabel " aria-hidden="true ">
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <h5 class="modal-title " id="enrollLabel ">Enrollment</h5>
+                    <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
+                </div>
+                <div class="modal-body ">
+                    <p class="lead ">Fill out this form to schedule a one on one consultation with me!</p>
+                    <form>
+                        <div class="mb-3 ">
+                            <label for="first-name " class="col-form-label ">
                   First Name:
                 </label>
-                                        <input type="text " class="form-control " id="first-name " />
-                                    </div>
-                                    <div class="mb-3 ">
-                                        <label for="last-name " class="col-form-label ">Last Name:</label>
-                                        <input type="text " class="form-control " id="last-name " />
-                                    </div>
-                                    <div class="mb-3 ">
-                                        <label for="email " class="col-form-label ">Email:</label>
-                                        <input type="email " class="form-control " id="email " />
-                                    </div>
-                                    <div class="mb-3 ">
-                                        <label for="phone " class="col-form-label ">Phone:</label>
-                                        <input type="tel " class="form-control " id="phone " />
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer ">
-                                <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">
+                            <input type="text " class="form-control " id="first-name " />
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="last-name " class="col-form-label ">Last Name:</label>
+                            <input type="text " class="form-control " id="last-name " />
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="email " class="col-form-label ">Email:</label>
+                            <input type="email " class="form-control " id="email " />
+                        </div>
+                        <div class="mb-3 ">
+                            <label for="phone " class="col-form-label ">Phone:</label>
+                            <input type="tel " class="form-control " id="phone " />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">
               Close
             </button>
-                                <button type="button " class="btn btn-primary ">Submit</button>
-                            </div>
-                        </div>
-                    </div>
+                    <button type="button " class="btn btn-primary ">Submit</button>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
-                <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4 " crossorigin="anonymous "></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js "></script>
 
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js " integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js " integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
-                <script src="js/scrollTrigger.js "></script>
-                <script src="js/gsap.js "></script>
-                <!-- <script>
-        mapboxgl.accessToken =
-            'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=YOUR_MAPBOX_ACCESS_TOKEN'
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center: [-71.060982, 42.35725],
-            zoom: 18,
-        })
-    </script>-->
-                <!-- The core Firebase JS SDK is always required and must be listed first -->
-                <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js " integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js " integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q==" crossorigin=" anonymous " referrerpolicy="no-referrer "></script>
+    <script src="js/scrollTrigger.js "></script>
+    <script src="js/gsap.js "></script>
 
-                <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-                <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js "></script>
 
-                <script>
-                    // Your web app's Firebase configuration
-                    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-                    var firebaseConfig = {
-                        apiKey: "AIzaSyBJB2Zh4w-fwwFi4bVkYFOa-Tm4ojpzr9k ",
-                        authDomain: "jnutt-s-react-bootcamp.firebaseapp.com ",
-                        projectId: "jnutt-s-react-bootcamp ",
-                        storageBucket: "jnutt-s-react-bootcamp.appspot.com ",
-                        messagingSenderId: "151704021290 ",
-                        appId: "1:151704021290:web:d491bc2268c4f74c389653 ",
-                        measurementId: "G-DBBSCEM6JW "
-                    };
-                    // Initialize Firebase
-                    firebase.initializeApp(firebaseConfig);
-                    firebase.analytics();
-                </script>
 </body>
 
 </html>
